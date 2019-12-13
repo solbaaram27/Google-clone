@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 80px;
+}
+
+/*h1 태그 아래 1~6번째 span 태그의 속성 
+
+    X1 X2:nth-child(a){}
+*/
+
+h1 span:nth-child(1){
+    color:#4285f4
+}
+h1 span:nth-child(2){
+    color:#ea4335
+}
+h1 span:nth-child(3){
+    color:#fbbc05
+}
+h1 span:nth-child(4){
+    color:#4285f4
+}
+h1 span:nth-child(5){
+    color:#34a853
+}
+h1 span:nth-child(6){
+    color:#ea4335
+}
+
+
+
+
+
+.search-bar{
+    width: 600px;
+    margin: 0 auto; /*중앙 정렬*/
+    margin-top: 35px;
+}
+input{
+    background-image: url("file:///C:/Users/Q/Downloads/search%20(1).svg");
+    background-repeat: no-repeat;
+    background-position: center right 15px; /*방향 X px 방향 X px*/
+ 
+}
